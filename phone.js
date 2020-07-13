@@ -28,3 +28,9 @@ button.addEventListener("click", function () {
  }
 
 });
+var load = document.querySelector("btn-dark");
+load.addEventListener("click", function(){
+  if (localStorage.phoneBook){
+    
+  }
+})
