@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body{
+   font-family: 'Noto Sans JP', sans-serif;
+    background-image:url(./back.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h4{
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding:2rem 0rem 5rem 0rem;
+}
+.left-side{
+  /* text-align: center; */
+  background-color:white;
+  height:100vh;
+  border: 1px gray;
+  border-radius: 30px;
+}
+tr:hover {
+  background-color: black;
+}
+table th, td{
+  margin: auto;
+  width: 100%;
+  border: 3px solid white;
+  padding: 10px 50px;
+  color: lightblue;
+  border-radius: 100px;
+}
+#name:hover{
+    background-color:lightblue;
+}
+.right-side{
+ padding-top: 2rem;
+ width: 100%;
+}
+.btn-success{
+  width: 50%;
+  padding:12px 20px;
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 20px;
+  background-color: white;
+  color: green;
+  box-shadow: 1px 2px 5px 0px #888888;
+}
+#number:hover{
+    background-color:pink;
+}
+input[type=text] {
+ width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input[type=tel] {
+ width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  
+}
