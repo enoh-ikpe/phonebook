@@ -38,7 +38,7 @@ table th, td{
  width: 100%;
 }
 .btn-success{
-  width: 50%;
+  width:40%;
   padding:12px 20px;
   font-size: 16px;
   font-weight: 900;
@@ -67,4 +67,26 @@ input[type=tel] {
   border: 1px solid #ccc;
   border-radius: 10px;
   
+}
+.btn-dark{
+  width: 50%;
+  border-radius: 20px;
+  padding: 12px 20px;
+  font-weight: 900 ;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width: 600px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+.right-side{
+ padding: 3rem 0px;
+ order: 1;
+}
+.left-side{
+  order: 2;
+}
 }
