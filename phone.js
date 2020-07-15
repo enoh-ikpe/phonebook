@@ -12,13 +12,12 @@ button.addEventListener("click", function () {
   }
   stored.push(phoneBook);
   localStorage.phoneBook = JSON.stringify(stored);
-  // stored = localStorage.setItem("name", JSON.stringify(phoneBook));
-  
-  var result = localStorage.getItem("name");
+
+  // var result = localStorage.getItem("name");
   var table = document.querySelector("tbody");
    table.innerHTML = '';
  for (var i = 0; i<stored.length; i++){
-   
+console.log(stored);
 
    var trow = `
                             <td>${stored[i].Name}</td>
@@ -28,16 +27,19 @@ button.addEventListener("click", function () {
  }
 
 });
-var load = document.querySelector(".btn-dark");
-load.addEventListener("click", function(){ 
-  var trow = `<td>${stored[i].Name}</td> 
-              <td>${stored[i].Number}</td>`;
-  var row = table.insertRow();
-  row.innerHTML = trow;
-  if (!localStorage.phoneBook){
-    console.log("good");
-    trow = "";
-  } else {
-    trow = row.innerHTML
-  }
-})
+
+
+
+// var load = document.querySelector(".btn-dark");
+// load.addEventListener("click", function(){ 
+//   var trow = `<td>${stored[i].Name}</td> 
+//               <td>${stored[i].Number}</td>`;
+//   var row = table.insertRow();
+//   row.innerHTML = trow;
+//   if (!localStorage.phoneBook){
+//     console.log("good");
+//     trow = "";
+//   } else {
+//     console.log("good");
+//   }
+// })
